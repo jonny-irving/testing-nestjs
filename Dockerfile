@@ -1,4 +1,4 @@
-FROM node:12 as BASE
+FROM node:16.18.0 as BASE
 WORKDIR /app
 COPY package*.json \
   nest-cli.json \
